@@ -6,11 +6,12 @@ A versão inicial do Base Studio, de forma Beta, está aberta a todos que quiser
 
 #### URL Base: https://api.basestudio.com.br/v1/
 
-> Criando um Usuário Administrador
+## Criando um Usuário Administrador
 
->POST
->/account/admin/auth
-
+```
+POST
+/account/admin/auth
+```
 ```
 Body
 {
