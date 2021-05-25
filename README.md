@@ -9,8 +9,7 @@ A versão inicial do Base Studio, de forma Beta, está aberta a todos que quiser
 ## Criando um Usuário Administrador
 
 ```
-POST
-/account/admin/auth
+POST /account/admin/auth
 ```
 ```
 Body
@@ -19,4 +18,8 @@ Body
   "password": "senhadousuario",
   "name": "Dirceu Belem"
 }
+```
+Retorno da API
+```
+{"id":"4re85qd63lk3i1f6ht5hlf"}
 ```
