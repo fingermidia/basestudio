@@ -8,7 +8,7 @@ A versão inicial do Base Studio, de forma Beta, está aberta a todos que quiser
 
 ## Criando um Usuário Administrador
 ```sh
-POST account/admin/auth
+POST account/admin
 ```
 ```json
 {
