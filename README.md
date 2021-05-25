@@ -7,11 +7,10 @@ A versão inicial do Base Studio, de forma Beta, está aberta a todos que quiser
 #### URL Base: https://api.basestudio.com.br/v1/
 
 ## Criando um Usuário Administrador
-```
+```sh
 POST account/admin/auth
 ```
-```
-Body
+```json
 {
   "email": "dirceu@fingermidia.com",
   "password": "senhadousuario",
@@ -19,21 +18,20 @@ Body
 }
 ```
 Retorno da API
-```
+```json
 {"id":"4re85qd63lk3i1f6ht5hlf"}
 ```
 
 ### Esqueci minha senha Administrador
-```
+```sh
 POST account/admin/forgot
 ```
-```
-Body
+```json
 {
   "email": "dirceu@fingermidia.com"
 }
 ```
 Retorno da API
-```
+```json
 {"code":0,"success":true}
 ```
