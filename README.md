@@ -5,3 +5,17 @@ O Base Studio é uma API genérica para utilização de base de dados simples. N
 A versão inicial do Base Studio, de forma Beta, está aberta a todos que quiserem utilizar, porém ainda não existe uma interface de administração. Para a criação de usuários, projetos e coleções o desenvolvedor precisa utilizar uma API. Abaixo vamos detalhar o seu funcionamento.
 
 #### URL Base: https://api.basestudio.com.br/v1/
+
+## Criando um Usuário Administrador
+
+```
+POST
+/account/admin/auth
+
+Body
+{
+  "email": "dirceu@fingermidia.com",
+  "password": "senhadousuario",
+  "name": "Dirceu Belem"
+}
+```
